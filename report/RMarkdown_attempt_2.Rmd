@@ -1,0 +1,44 @@
+---
+title: "RMarkdown_attempt_2"
+author: "Jonathan Standing"
+date: "2023-09-25"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Level 2 heading
+###Level 3 heading
+####Level 4 heading
+#####Main text
+
+##Add code 
+```{r}
+1+1
+```
+
+##Output figures
+```{r}
+plot(1:10, 1:10)
+```
+
+##Display data
+```{r}
+cars
+```
+
+##In-line R code
+
+```{r}
+Scientific research shows that 12223 + 12111 =`r 1223 + 12111`.
+```
+
+
+```{r}
+install.packages("tinytex")
+tinytex::install_tinytex()
+```
+
