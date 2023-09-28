@@ -32,13 +32,14 @@ cars
 
 ##In-line R code
 
+
+Scientific research shows that 12223 + 12111 = r 1223 + 12111.
+
+
+
 ```{r}
-Scientific research shows that 12223 + 12111 =`r 1223 + 12111`.
+##install.packages("tinytex")
+##tinytex::install_tinytex()
 ```
 
-
-```{r}
-install.packages("tinytex")
-tinytex::install_tinytex()
-```
-
+Push to Github practice
